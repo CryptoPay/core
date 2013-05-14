@@ -16,7 +16,8 @@ $.getJSON('https://data.mtgox.com/api/2/BTCUSD/money/ticker', function(data) {
 });
 
 $.get("sampleGet.php", function(data) {
-  alert("Data Loaded: " + data);
+    alert("Data Loaded: " + data);
+//    var result = 
 });
 /*
 $.ajax({
